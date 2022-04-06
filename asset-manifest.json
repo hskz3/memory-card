@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.a17490a9.css",
+    "main.js": "/memory-card/static/js/main.6895cb61.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory-card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/Krookodile.png": "/memory-card/static/media/Krookodile.18d4aaca5ebf71ef99fe.png",
+    "static/media/Marowak.png": "/memory-card/static/media/Marowak.adfce95ae39753a55a51.png",
+    "static/media/Eevee.png": "/memory-card/static/media/Eevee.dd78db544e853b66e0fb.png",
+    "static/media/TapuLele.png": "/memory-card/static/media/TapuLele.96ca9d4a986fdc6807b7.png",
+    "static/media/Pidgeot.png": "/memory-card/static/media/Pidgeot.d91d1e8548af30fea02d.png",
+    "static/media/Tyranitar.png": "/memory-card/static/media/Tyranitar.26a5fe4c7538a6c88fc9.png",
+    "static/media/Charizard.png": "/memory-card/static/media/Charizard.10440732be640fabe790.png",
+    "static/media/Psyduck.png": "/memory-card/static/media/Psyduck.e60f5c1e86a3fbea879d.png",
+    "static/media/Mew.png": "/memory-card/static/media/Mew.273398167afd00f628d6.png",
+    "static/media/Pikachu.png": "/memory-card/static/media/Pikachu.50742e50c18b46c85580.png",
+    "index.html": "/memory-card/index.html",
+    "main.a17490a9.css.map": "/memory-card/static/css/main.a17490a9.css.map",
+    "main.6895cb61.js.map": "/memory-card/static/js/main.6895cb61.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory-card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a17490a9.css",
+    "static/js/main.6895cb61.js"
+  ]
+}
