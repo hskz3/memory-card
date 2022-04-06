@@ -12,6 +12,7 @@ function App() {
 
   const initialiseCardArr = () => {
     setCardArr(Array)
+    console.log(Array);
   }
 
   const onClickHandler = (newValue) => {
@@ -33,6 +34,7 @@ function App() {
     setScore(0); // Reset Score
     setSelected([]);
     initialiseCardArr();
+    shuffleLogic();
   }
 
   const existInArr = (value) => {
