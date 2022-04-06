@@ -51,4 +51,4 @@ const CardArray = [
     },
 ]
 
-export default CardArray;
+export {CardArray};

@@ -2,18 +2,13 @@ import "./App.css";
 import React, {useState} from "react";
 import Header from "./components/Header";
 import Cards from "./components/Cards";
-import Array from './components/CardArray'
+import {CardArray as Array} from './components/CardArray'
 
 function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
   const [selected, setSelected] = useState([]);
-  const [cardArr, setCardArr] = useState(Array)
-
-  const initialiseCardArr = () => {
-    setCardArr(Array)
-    console.log(Array);
-  }
+  const [cardArr, setCardArr] = useState(Array);
 
   const onClickHandler = (newValue) => {
     if (existInArr(newValue)) {
@@ -33,7 +28,6 @@ function App() {
   const resetGame = () => {
     setScore(0); // Reset Score
     setSelected([]);
-    initialiseCardArr();
     shuffleLogic();
   }
 
@@ -55,8 +49,7 @@ function App() {
       currentIndex--;
   
       // And swap it with the current element.
-      [cardArr[currentIndex], cardArr[randomIndex]] = [
-        cardArr[randomIndex], cardArr[currentIndex]];
+      [cardArr[currentIndex], cardArr[randomIndex]] = [cardArr[randomIndex], cardArr[currentIndex]];
     }
   }
 
