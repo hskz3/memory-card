@@ -1,6 +1,6 @@
 # Memory Card Game
 
-Link: https://hskz3.github.io/memory-card/
+Link: [Github Page](https://hskz3.github.io/memory-card/)
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
